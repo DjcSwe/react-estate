@@ -30,9 +30,7 @@ const SignIn = () => {
                     Login to React Estate with Google
                 </Text>
                 <TouchableOpacity
-                    onPress={() => {
-                        handleLogin()
-                    }}
+                    onPress={() => { handleLogin() }}
                     className="bg-accent-100 shadow-md shadow-zinc-300 rounded-full w-full py-4 mt-5"
                 >
                     <View className="flex flex-row items-center justify-center">
